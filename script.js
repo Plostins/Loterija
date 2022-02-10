@@ -11,11 +11,12 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
     let uzvaretajs = vardi[rand];//izvada konsolee
     let laimesti = balvas[rand];
 
-    
+
     rindas.innerHTML += `
 
     <tr>
     <td>${i+1}</td>
     <td>${uzvaretajs}</td>
+    <td>${laimesti}</td>
     </tr>`
 }
